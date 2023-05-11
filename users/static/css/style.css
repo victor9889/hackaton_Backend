@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#fbfec3;
+    font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+    color: teal;
+}
+.login {
+    width: 382px;
+    overflow: hidden;   
+    margin: auto;
+    padding: 80px 80px 60px 80px;
+    border-radius: 0px;
+    justify-content: center;
+    background-color: #fbfec3;
+    box-shadow: teal 0px 0px 0px 1px;
+}
+h1 {
+    text-align: center;  
+    padding: 20px;
+}
+label { 
+    font-size: 17px;
+}
+input {
+    padding: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    border-width: 0px;
+    appearance: none;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    color: teal;
+    box-shadow: teal 0px 0px 0px 1px;
+    border-style: solid;
+}
+input:focus{
+    outline: none;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    width: 75%;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    color: #fbfec3;
+    background-color: teal;
+}
+#logout {
+    width: 20%;
+    height: 35px;
+    border: none;
+    border-radius: 17px;
+    color: #fbfec3;
+    background-color: teal;
+}
+a {
+    color: teal;
+}
+.error{
+    color: #b03648;
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-text-fill-color: teal;
+    box-shadow: teal 0px 0px 0px 1px;
+    transition: background-color 5000s ease-in-out 0s;
+}

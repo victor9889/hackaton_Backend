@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	{% load static %}
+    <title>Inicio de Sesión</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+	<h1>¡Bienvenido al desafío del hackaton!</h1>
+	<div class="centro">
+		<p>Este es el desafío de hackaton. Modalidad: Backend.</p>
+	</div>
+	<div class="centro">
+		<p><a href="{% url 'login' %}">Iniciar sesión</a> o <a href="{% url 'register' %}">Registrarse</a></p>
+	</div>
+</body>
+</html>

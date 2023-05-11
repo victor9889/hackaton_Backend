@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	 {% load static %}
+    <title>Registro</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+	<h1>Registro</h1>
+	<div class="login">
+	 	{% if messages %}
+    		<div class="centro">
+        		{% for message in messages %}
+        			<span class = "error">{{ message }}</span>
+        			<br><br>
+        		{% endfor %}
+    		</div>
+    	{% endif %}
+		<form method="post">
+			{% csrf_token %}
+			<label for="username"><b>Nombre de usuario:</b></label>
+			<div class="centro">
+				<input type="text" class="username" name="username" required><br>
+			</div>
+			<br>
+			<label for="email"><b>Correo electrónico:</b></label>
+			<div class="centro">
+				<input type="email" id="email" name="email" required><br>
+			</div>
+			<br>
+			<label for="password"><b>Contraseña:</b></label>
+			<div class="centro">
+				<input type="password" id="password" name="password" required><br>
+			</div>
+			<br><br>
+			{% comment %} <label for="password2">Confirmar contraseña:</label>
+			<input type="password" name="password2" required><br> {% endcomment %}
+			<div class="centro">
+				<button type="submit" class="boton">Registrarse</button><br>
+			</div>
+			<br>
+		</form>
+		<div class="centro">
+			<span class="texto">¿Ya tienes cuenta?</span>&nbsp;<a href="{% url 'login' %}">Iniciar sesión</a>
+		</div>
+	
+	<div>
+</body>
+</html>

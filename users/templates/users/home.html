@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	{% load static %}
+    <title>Inicio</title>
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+	<h1>Has iniciado sesión</h1>
+	<div class="centro">
+	<p>¡Bienvenido {{ user }}!</p>
+	</div>
+	<form  method="post"> 
+		{% csrf_token %}
+		<div class="centro">
+  		<input id="logout" type="submit" value="Logout"> 
+		</div>	
+	</form>
+
+</body>
+</html>
