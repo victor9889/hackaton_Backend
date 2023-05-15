@@ -16,7 +16,7 @@ En general, la aplicación es una solución simple y eficaz para el registro y l
 
 # Instalación y ejecución(En modo local) del servidor en windows.
 Previo a la instalación:
-1. Instala python si no lo tienes instalado: puedes hacerlo desde este enlace: https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe Ya te instalara la versión necesaria. Al instalar python asegurate de marcar la casilla de añadir la variable al PATH. (![image](https://github.com/victor9889/hackaton_Backend/assets/115695594/44b9307e-bdf8-4217-97ec-ce64b9326057)
+1. Instala python si no lo tienes instalado: puedes hacerlo desde este enlace: https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe Ya te instalara la versión necesaria. Al instalar python asegurate de marcar la casilla de añadir la variable al PATH. (![image](https://github.com/victor9889/hackaton_Backend/assets/115695594/44b9307e-bdf8-4217-97ec-ce64b9326057))
 
 Instalación:
 1. Crear una carpeta y posicionarse dentro de ella desde un terminal.
